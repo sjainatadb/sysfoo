@@ -35,6 +35,7 @@ pipeline {
 
       }
       when {
+        beforeAgent true
         branch 'master'
       }
       steps {
@@ -47,6 +48,7 @@ pipeline {
     stage('Docker Build and Publish') {
       agent any
       when {
+        beforeAgent true
         branch 'master'
       }
       steps {
