@@ -4,4 +4,4 @@ services:
   sysfoo:
     image: sjainatadb/sysfoo:latest
     ports:
-      - 8899:8080
+      - 8888:8080
