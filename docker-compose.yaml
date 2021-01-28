@@ -1,7 +1,7 @@
 version: "3.8"
 
 services:
-	sysfoo:
-		image: sjainatadb/sysfoo:latest
-		ports:
-			- 18899:8080
+  sysfoo:
+    image: sjainatadb/sysfoo:latest
+    ports:
+      - 8899:8080
